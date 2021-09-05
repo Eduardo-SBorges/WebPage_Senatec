@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-        <title>Serviços - SENATEC</title>
+        <title>SENATEC - Index</title>
         <meta content="" name="description" />
         <meta content="" name="keywords" />
 
@@ -33,26 +33,24 @@
 
     <body>
         <!-- ======= Header ======= -->
-        <header id="header" class="fixed-top d-flex align-items-center">
+        <header id="header" class="fixed-top d-flex align-items-center header-transparent">
             <div class="container d-flex justify-content-between align-items-center">
                 <div>
                     <!-- <h1 class="text-light">
-                        <a href="index.html"><span>SENATEC</span></a>
+                        <a href="inicio.html"><span>SENATEC</span></a>
                     </h1> -->
                     <!-- Uncomment below if you prefer to use an image logo -->
-                    <a href="index.html"><img src="assets/img/logo.png" alt="SENATEC" class="logo" width="150" height="60px" /></a>
+                    <a href="inicio.html"><img src="assets/img/logo.png" alt="SENATEC" class="logo" width="150" height="60px" /></a>
                 </div>
 
                 <nav id="navbar" class="navbar">
                     <ul>
-                        <li><a class="" href="index.html">Início</a></li>
-                        <li><a href="about.html">Sobre</a></li>
-                        <li><a class="active" href="services.html">Serviços</a></li>
-                        <li><a href="portfolio.html">Portfólio</a></li>
-                        <li><a href="team.html">Time</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-
-                        <li><a href="contact.html">Contate-nos</a></li>
+                        <li><a class="active" href="inicio.html">Início</a></li>
+                        <li><a href="sobre-nos.html">Sobre</a></li>
+                        <li><a href="nossos-servicos.html">Serviços</a></li>
+                        <li><a href="nosso-portfolio.html">Portfólio</a></li>
+                        <li><a href="nosso-time.html">Time</a></li>
+                        <li><a href="contate-nos.html">Contate-nos</a></li>
                     </ul>
                     <i class="bi bi-list mobile-nav-toggle"></i>
                 </nav>
@@ -61,21 +59,55 @@
         </header>
         <!-- End Header -->
 
-        <main id="main">
-            <!-- ======= Nossos Serviços Section ======= -->
-            <section class="breadcrumbs">
-                <div class="container">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <h2>Nossos Serviços</h2>
-                        <ol>
-                            <li><a href="index.html">Início</a></li>
-                            <li>Nossos Serviços</li>
-                        </ol>
+        <!-- ======= Hero Section ======= -->
+        <section id="hero" class="d-flex justify-cntent-center align-items-center">
+            <div id="heroCarousel" class="container carousel carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="carousel-container">
+                        <h2>Bem vindo à <span>SENATEC</span></h2>
+                        <p class="fs-5">Saiba quais são as soluções que a SENATEC entrega para o mercado em</p>
+                        <p class="scale-up-hor-center h5 lh-lg">
+                            <span class="h3">TECNOLOGIA</span>
+                        </p>
+                        <a href="nossos-servicos.html" class="btn-get-started rotate-center">Leia Mais</a>
                     </div>
                 </div>
-            </section>
-            <!-- End Nossos Serviços Section -->
 
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <div class="carousel-container">
+                        <h2>Bem vindo à <span>SENATEC</span></h2>
+                        <p class="fs-5">Saiba quais são as soluções que a SENATEC entrega para o mercado em</p>
+                        <p class="scale-up-hor-center h5 lh-lg">
+                            <span class="h3">GESTÃO</span>
+                        </p>
+                        <a href="nossos-servicos.html" class="btn-get-started rotate-center">Leia Mais</a>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="carousel-item">
+                    <div class="carousel-container">
+                        <h2>Bem vindo à <span>SENATEC</span></h2>
+                        <p class="fs-5">Saiba quais são as soluções que a SENATEC entrega para o mercado em</p>
+                        <p class="scale-up-hor-center h5 lh-lg">
+                            <span class="h3">MARKETING</span>
+                        </p>
+                        <a href="nossos-servicos.html" class="btn-get-started rotate-center">Leia Mais</a>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
+                </a>
+            </div>
+        </section>
+        <!-- End Hero -->
+
+        <main id="main">
             <!-- ======= Serviços Section ======= -->
             <section class="Serviços">
                 <div class="container">
@@ -161,92 +193,11 @@
             </section>
             <!-- End Why Us Section -->
 
-            <!-- ======= Service Details Section ======= -->
-            <section class="service-details">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
-                            <div class="card">
-                                <div class="card-img">
-                                    <img src="assets/img/service-details-1.jpg" alt="..." />
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title"><a href="#">Serviço 1</a></h5>
-                                    <p class="card-text text-center">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, non natus, inventore eius vitae
-                                        reiciendis consequatur blanditiis deserunt quia optio, mollitia nesciunt quam architecto esse
-                                        aliquam voluptatem! Dolore, amet quasi!
-                                    </p>
-                                    <div class="read-more">
-                                        <a><i class="bi bi-arrow-right"></i> Leia Mais</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
-                            <div class="card">
-                                <div class="card-img">
-                                    <img src="assets/img/service-details-2.jpg" alt="..." />
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title"><a href="#">Serviço 2</a></h5>
-                                    <p class="card-text text-center">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, non natus, inventore eius vitae
-                                        reiciendis consequatur blanditiis deserunt quia optio, mollitia nesciunt quam architecto esse
-                                        aliquam voluptatem! Dolore, amet quasi!
-                                    </p>
-                                    <div class="read-more">
-                                        <a><i class="bi bi-arrow-right"></i> Leia Mais</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
-                            <div class="card">
-                                <div class="card-img">
-                                    <img src="assets/img/service-details-3.jpg" alt="..." />
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title"><a href="#">Serviço 3</a></h5>
-                                    <p class="card-text text-center">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, non natus, inventore eius vitae
-                                        reiciendis consequatur blanditiis deserunt quia optio, mollitia nesciunt quam architecto esse
-                                        aliquam voluptatem! Dolore, amet quasi!
-                                    </p>
-                                    <div class="read-more">
-                                        <a><i class="bi bi-arrow-right"></i> Leia Mais</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
-                            <div class="card">
-                                <div class="card-img">
-                                    <img src="assets/img/service-details-4.jpg" alt="..." />
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title"><a href="#">Serviço 4</a></h5>
-                                    <p class="card-text text-center">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, non natus, inventore eius vitae
-                                        reiciendis consequatur blanditiis deserunt quia optio, mollitia nesciunt quam architecto esse
-                                        aliquam voluptatem! Dolore, amet quasi!
-                                    </p>
-                                    <div class="read-more">
-                                        <a><i class="bi bi-arrow-right"></i> Leia Mais</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- End Service Details Section -->
-
-            <!-- ======= Pricing Section ======= -->
-            <section class="pricing section-bg" data-aos="fade-up">
+            <!-- ======= Features Section ======= -->
+            <section class="features">
                 <div class="container">
                     <div class="section-title">
-                        <h2>Precificação</h2>
+                        <h2>Nosso foco são os seus resultados!</h2>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, non natus, inventore eius vitae reiciendis
                             consequatur blanditiis deserunt quia optio, mollitia nesciunt quam architecto esse aliquam voluptatem! Dolore,
@@ -254,49 +205,83 @@
                         </p>
                     </div>
 
-                    <div class="row no-gutters">
-                        <div class="col-lg-4 box">
-                            <h3>Simples</h3>
-                            <h4>R$400,00<span>uma única vez</span></h4>
-                            <ul>
-                                <li><i class="bx bx-check"></i> Vantagem UM</li>
-                                <li><i class="bx bx-check"></i> Vantagem DOIS</li>
-                                <li class="na"><i class="bx bx-x"></i> <span>Vantagem TRÊS</span></li>
-                                <li class="na"><i class="bx bx-x"></i> <span>Vantagem QUATRO</span></li>
-                                <li class="na"><i class="bx bx-x"></i> <span>Vantagem CINCO</span></li>
-                            </ul>
-                            <a class="get-started-btn">Adquira já!</a>
+                    <div class="row" data-aos="fade-up">
+                        <div class="col-md-5">
+                            <img src="assets/img/features-1.svg" class="img-fluid" alt="" />
                         </div>
-
-                        <div class="col-lg-4 box featured">
-                            <h3>Empresarial</h3>
-                            <h4>R$900,00<span>uma única vez</span></h4>
+                        <div class="col-md-7 pt-4">
+                            <h3>Solução em Tecnologia</h3>
+                            <p class="fst-italic">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, non natus, inventore eius vitae reiciendis
+                                consequatur blanditiis deserunt quia optio, mollitia nesciunt quam architecto esse aliquam voluptatem!
+                                Dolore, amet quasi!
+                            </p>
                             <ul>
-                                <li><i class="bx bx-check"></i> Vantagem UM</li>
-                                <li><i class="bx bx-check"></i> Vantagem DOIS</li>
-                                <li><i class="bx bx-check"></i> Vantagem TRÊS</li>
-                                <li class="na"><i class="bx bx-x"></i> <span>Vantagem QUATRO</span></li>
-                                <li class="na"><i class="bx bx-x"></i> <span>Vantagem CINCO</span></li>
+                                <li><i class="bi bi-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li><i class="bi bi-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
                             </ul>
-                            <a class="get-started-btn">Adquira já!</a>
                         </div>
+                    </div>
 
-                        <div class="col-lg-4 box">
-                            <h3>Avançado</h3>
-                            <h4>R$ 2.000,00<span>uma única vez</span></h4>
+                    <div class="row" data-aos="fade-up">
+                        <div class="col-md-5 order-1 order-md-2">
+                            <img src="assets/img/features-2.svg" class="img-fluid" alt="" />
+                        </div>
+                        <div class="col-md-7 pt-5 order-2 order-md-1">
+                            <h3>Solução em Gestão</h3>
+                            <p class="fst-italic">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, non natus, inventore eius vitae reiciendis
+                                consequatur blanditiis deserunt quia optio, mollitia nesciunt quam architecto esse aliquam voluptatem!
+                                Dolore, amet quasi!
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, non natus, inventore eius vitae reiciendis
+                                consequatur blanditiis deserunt quia optio, mollitia nesciunt quam architecto esse aliquam voluptatem!
+                                Dolore, amet quasi!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row" data-aos="fade-up">
+                        <div class="col-md-5">
+                            <img src="assets/img/features-3.svg" class="img-fluid" alt="" />
+                        </div>
+                        <div class="col-md-7 pt-5">
+                            <h3>Solução em Marketing</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, non natus, inventore eius vitae reiciendis
+                                consequatur blanditiis deserunt quia optio, mollitia nesciunt quam architecto esse aliquam voluptatem!
+                                Dolore, amet quasi!
+                            </p>
                             <ul>
-                                <li><i class="bx bx-check"></i> Vantagem UM</li>
-                                <li><i class="bx bx-check"></i> Vantagem DOIS</li>
-                                <li><i class="bx bx-check"></i> Vantagem TRÊS</li>
-                                <li><i class="bx bx-check"></i> Vantagem QUATRO</li>
-                                <li><i class="bx bx-check"></i> Vantagem CINCO</li>
+                                <li><i class="bi bi-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li><i class="bi bi-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li><i class="bi bi-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
                             </ul>
-                            <a class="get-started-btn">Adquira já!</a>
+                        </div>
+                    </div>
+
+                    <div class="row" data-aos="fade-up">
+                        <div class="col-md-5 order-1 order-md-2">
+                            <img src="assets/img/features-4.svg" class="img-fluid" alt="" />
+                        </div>
+                        <div class="col-md-7 pt-5 order-2 order-md-1">
+                            <h3>Solução em Redes</h3>
+                            <p class="fst-italic">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, non natus, inventore eius vitae reiciendis
+                                consequatur blanditiis deserunt quia optio, mollitia nesciunt quam architecto esse aliquam voluptatem!
+                                Dolore, amet quasi!
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, non natus, inventore eius vitae reiciendis
+                                consequatur blanditiis deserunt quia optio, mollitia nesciunt quam architecto esse aliquam voluptatem!
+                                Dolore, amet quasi!
+                            </p>
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- End Pricing Section -->
+            <!-- End Features Section -->
         </main>
         <!-- End #main -->
 
@@ -308,11 +293,11 @@
                         <div class="col-lg-3 col-md-6 footer-links">
                             <h4>Links Úteis</h4>
                             <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#">Início</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#">Sobre nós</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#">Serviços</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#">Termos de Serviço</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#">Política de Privacidade</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="inicio.html">Início</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="sobre-nos.html">Sobre nós</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="nossos-servicos.html">Serviços</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="nosso-portfolio.html">Portfólio</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="contate-nos.html">Contate-nos</a></li>
                             </ul>
                         </div>
 
@@ -328,7 +313,7 @@
                         <div class="col-lg-3 col-md-6 footer-contact">
                             <h4>Contate-nos</h4>
                             <p>
-                                R. Gonçalves Chaves, 602<br />Centro, Pelotas/RS <br /><br />
+                                R. Gonçalves Chaves, 602<br />Centro, Pelotas/RS<br /><br />
                                 <strong>Telefone:</strong> (53) 3225-8889<br />
                                 <strong>Fale Conosco:</strong> senatec-pelotas@senatec.com.br<br />
                             </p>
@@ -356,7 +341,7 @@
                     &copy;<strong><span> SENATEC</span></strong
                     >. Todos os Direitos Reservados
                 </div>
-                <div class="credits">Desenvolvido pela <a href="team.html">SENATEC</a></div>
+                <div class="credits">Desenvolvido pela <a href="nosso-time.html">SENATEC</a></div>
             </div>
         </footer>
         <!-- End Footer -->
