@@ -2394,6 +2394,10 @@ section {
         -webkit-transform: scale(1.2);
         transform: scale(1.2);
     }
+    75% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
     100% {
         -webkit-transform: scale(1);
         transform: scale(1);
