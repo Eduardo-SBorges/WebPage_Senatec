@@ -237,92 +237,117 @@
 
         <section id="inscricao" class="pt-0 mt-0">
             <div class="container">
-                <div class="row">
+                <div class="row justify-content-center">
                     <div class="col-12 text-center mb-5">
                         <h2>Inscreva-se Já!</h1>
                     </div>
-                    <form>
-                        <div class="row">
-                            <div class="col-md-4 mb-3">
-                                <label for="nome">Nome Completo</label>
-                                <input type="text" class="form-control" id="nome" placeholder="Nome" value="" required>
+                    <div class="col-9">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-3 mb-3">
+                                    <label for="nome">Nome Completo</label>
+                                    <input type="text" class="form-control" id="nome" placeholder="Nome Nome Nome"
+                                        value="" required>
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                    <label for="email">E-mail</label>
+                                    <input type="email" class="form-control" id="email" placeholder="email@email.com"
+                                        value="" required>
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                    <label for="nascimento">Data deNascimento</label>
+                                    <input type="date" class="form-control" id="nascimento"
+                                        placeholder="Data de Nascimento" required>
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                    <label for="validationServer05">Número para Contato</label>
+                                    <input type="tel" class="form-control" id="validationServer05"
+                                        placeholder="(53) 9 9999-9999" required>
+                                </div>
                             </div>
-                            <div class="col-md-4 mb-3">
-                                <label for="email">E-mail</label>
-                                <input type="email" class="form-control" id="email" placeholder="E-mail" value=""
-                                    required>
+                            <div class="row">
+                                <div class="col-md-3 mb-3">
+                                    <label for="cidade">Cidade</label>
+                                    <input type="" class="form-control" id="cidade" placeholder="Cidade" required>
+                                </div>
+                                <div class="col-md-1 mb-3">
+                                    <label for="inputEstado">UF</label>
+                                    <select id="inputEstado" class="form-control">
+                                        <option value=""></option>
+                                        <option value="AC">AC</option>
+                                        <option value="AL">AL</option>
+                                        <option value="AP">AP</option>
+                                        <option value="AM">AM</option>
+                                        <option value="BA">BA</option>
+                                        <option value="CE">CE</option>
+                                        <option value="DF">DF</option>
+                                        <option value="ES">ES</option>
+                                        <option value="GO">GO</option>
+                                        <option value="MA">MA</option>
+                                        <option value="MS">MS</option>
+                                        <option value="MT">MT</option>
+                                        <option value="MG">MG</option>
+                                        <option value="PA">PA</option>
+                                        <option value="PB">PB</option>
+                                        <option value="PR">PR</option>
+                                        <option value="PE">PE</option>
+                                        <option value="PI">PI</option>
+                                        <option value="RJ">RJ</option>
+                                        <option value="RN">RN</option>
+                                        <option value="RS">RS</option>
+                                        <option value="RO">RO</option>
+                                        <option value="RR">RR</option>
+                                        <option value="SC">SC</option>
+                                        <option value="SP">SP</option>
+                                        <option value="SE">SE</option>
+                                        <option value="TO">TO</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                    <label for="inputEstado">Curso Atual</label>
+                                    <select id="inputEstado" class="form-control">
+                                        <option value=""></option>
+                                        <option value="AC">Análise e Desenvolvimento de Sistemas</option>
+                                        <option value="AL">Marketing</option>
+                                        <option value="AP">Processos Gerenciais</option>
+                                        <option value="AM">Redes de Computadores</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-2 mb-3">
+                                    <label for="validationServer05">Semestre</label>
+                                    <input type="number" class="form-control" id="validationServer05"
+                                        placeholder="Semestre" required>
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                    <label for="inputEstado">Como soubesses de nós?</label>
+                                    <select id="inputEstado" class="form-control">
+                                        <option></option>
+                                        <option>Amigos</option>
+                                        <option>Colegas de Aula</option>
+                                        <option>Divulgação em Aula</option>
+                                        <option>Professores</option>
+                                        <option>Coordenador do Curso</option>
+                                        <option>Página do Facebook</option>
+                                        <option>Página do Instagram</option>
+                                        <option>Página do LinkedIn</option>
+                                        <option>Indicação dos Diretores</option>
+                                    </select>
+                                </div>
                             </div>
-                            <div class="col-md-4 mb-3">
-                                <label for="nascimento">Data de Nascimento</label>
-                                <input type="date" class="form-control" id="nascimento" placeholder="Data de Nascimento"
-                                    required>
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck3"
+                                        required>
+                                    <label class="form-check-label" for="invalidCheck3">
+                                        Concordo com os termos e condições
+                                    </label>
+                                </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-3 mb-3">
-                                <label for="cidade">Cidade</label>
-                                <input type="" class="form-control" id="cidade" placeholder="Cidade" required>
-                            </div>
-                            <div class="col-md-1 mb-3">
-                                <label for="inputEstado">UF</label>
-                                <select id="inputEstado" class="form-control">
-                                    <option value=""></option>
-                                    <option value="AC">AC</option>
-                                    <option value="AL">AL</option>
-                                    <option value="AP">AP</option>
-                                    <option value="AM">AM</option>
-                                    <option value="BA">BA</option>
-                                    <option value="CE">CE</option>
-                                    <option value="DF">DF</option>
-                                    <option value="ES">ES</option>
-                                    <option value="GO">GO</option>
-                                    <option value="MA">MA</option>
-                                    <option value="MS">MS</option>
-                                    <option value="MT">MT</option>
-                                    <option value="MG">MG</option>
-                                    <option value="PA">PA</option>
-                                    <option value="PB">PB</option>
-                                    <option value="PR">PR</option>
-                                    <option value="PE">PE</option>
-                                    <option value="PI">PI</option>
-                                    <option value="RJ">RJ</option>
-                                    <option value="RN">RN</option>
-                                    <option value="RS">RS</option>
-                                    <option value="RO">RO</option>
-                                    <option value="RR">RR</option>
-                                    <option value="SC">SC</option>
-                                    <option value="SP">SP</option>
-                                    <option value="SE">SE</option>
-                                    <option value="TO">TO</option>
-                                </select>
-                            </div>
-                            <div class="col-md-4 mb-3">
-                                <label for="inputEstado">Curso Atual</label>
-                                <select id="inputEstado" class="form-control">
-                                    <option value=""></option>
-                                    <option value="AC">Análise e Desenvolvimento de Sistemas</option>
-                                    <option value="AL">Marketing</option>
-                                    <option value="AP">Processos Gerenciais</option>
-                                    <option value="AM">Redes de Computadores</option>
-                                </select>
-                            </div>
-                            <div class="col-md-2 mb-3">
-                                <label for="validationServer05">Semestre</label>
-                                <input type="number" class="form-control" id="validationServer05" placeholder="Semestre"
-                                    required>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck3" required>
-                                <label class="form-check-label" for="invalidCheck3">
-                                    Concordo com os termos e condições
-                                </label>
-                            </div>
-                        </div>
-                        <button class="btn btn-primary" type="submit">Enviar</button>
-                    </form>
+                            <button class="btn btn-primary" type="submit">Enviar</button>
+                        </form>
+                    </div>
                 </div>
+            </div>
             </div>
         </section>
 
