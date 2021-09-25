@@ -925,24 +925,21 @@ section {
     font-size: 26px;
 }
 
-.Sobre ul {
+.Sobre p {
     list-style: none;
     padding: 0;
 }
 
-.Sobre ul li {
+.Sobre p {
     padding-bottom: 10px;
 }
 
-.Sobre ul i {
+.Sobre p i {
     font-size: 20px;
     padding-right: 4px;
     color: #6300ff;
 }
 
-.Sobre p:last-child {
-    margin-bottom: 0;
-}
 
 /*--------------------------------------------------------------
 # Facts
