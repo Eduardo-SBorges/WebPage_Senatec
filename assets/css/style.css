@@ -2322,6 +2322,10 @@ section {
     color: #6300ff;
 }
 
+.btn-roxo{
+    background-color: rgba(99, 0, 255, 0.7);
+}
+
 .slide-right {
     -webkit-animation: slide-right 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
     animation: slide-right 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
