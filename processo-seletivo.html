@@ -255,7 +255,7 @@
                                         value="" required>
                                 </div>
                                 <div class="col-md-3 mb-3">
-                                    <label for="nascimento">Data deNascimento</label>
+                                    <label for="nascimento">Data de Nascimento</label>
                                     <input type="date" class="form-control" id="nascimento"
                                         placeholder="Data de Nascimento" required>
                                 </div>
@@ -304,8 +304,8 @@
                                     </select>
                                 </div>
                                 <div class="col-md-3 mb-3">
-                                    <label for="inputEstado">Curso Atual</label>
-                                    <select id="inputEstado" class="form-control">
+                                    <label for="cursoAtual">Curso Atual</label>
+                                    <select id="cursoAtual" class="form-control">
                                         <option value=""></option>
                                         <option value="AC">Análise e Desenvolvimento de Sistemas</option>
                                         <option value="AL">Marketing</option>
@@ -314,13 +314,20 @@
                                     </select>
                                 </div>
                                 <div class="col-md-2 mb-3">
-                                    <label for="validationServer05">Semestre</label>
-                                    <input type="number" class="form-control" id="validationServer05"
-                                        placeholder="Semestre" required>
+                                    <label for="semestre">Semestre</label>
+                                    <select id="semestre" class="form-control">
+                                        <option value=""></option>
+                                        <option value="1">1º Semestre</option>
+                                        <option value="2">2º Semestre</option>
+                                        <option value="3">3º Semestre</option>
+                                        <option value="4">4º Semestre</option>
+                                        <option value="5">5º Semestre</option>
+                                        <option value="6">6º Semestre</option>
+                                    </select>
                                 </div>
                                 <div class="col-md-3 mb-3">
-                                    <label for="inputEstado">Como soubesses de nós?</label>
-                                    <select id="inputEstado" class="form-control">
+                                    <label for="sobreNos">Como soubesses de nós?</label>
+                                    <select id="sobreNos" class="form-control">
                                         <option></option>
                                         <option>Amigos</option>
                                         <option>Colegas de Aula</option>
@@ -334,16 +341,63 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="form-group">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck3"
-                                        required>
-                                    <label class="form-check-label" for="invalidCheck3">
-                                        Concordo com os termos e condições
-                                    </label>
+                            <div class="row">
+                                <div class="col-md-6 my-3">
+                                    <label for="objetivos" class="form-label">Conte-nos quais são objetivos
+                                        profissionais?</label>
+                                    <textarea class="form-control" id="objetivos" rows="3"></textarea>
+                                </div>
+                                <div class="col-md-6 my-3">
+                                    <label for="areasInteresse" class="form-label">Conte-nos quais são suas
+                                        áreas de
+                                        interesse?</label>
+                                    <textarea class="form-control" id="areasInteresse" rows="3"></textarea>
                                 </div>
                             </div>
-                            <button class="btn btn-primary" type="submit">Enviar</button>
+                            <div class="row">
+                                <div class="col-md-6 my-3">
+                                    <label for="habilidades" class="form-label">Conte-nos sobre suas
+                                        habilidades?</label>
+                                    <textarea class="form-control" id="habilidades" rows="3"></textarea>
+                                </div>
+                                <div class="col-md-6 my-3">
+                                    <label for="fazerParte" class="form-label">Por que queres fazer parte da
+                                        SENATEC?</label>
+                                    <textarea class="form-control" id="fazerParte" rows="3"></textarea>
+                                </div>
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 my-3">
+                                    <p class="mb-2">Disponibilidade para Reuniões Semanais (18h às
+                                        19h)?</p>
+                                    <div class="form-check mb-2">
+                                        <input class="form-check-input" type="radio" name="disponivel" id="sim" checked>
+                                        <label class="form-check-label" for="sim">
+                                            Sim.
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="disponivel" id="nao">
+                                        <label class="form-check-label" for="nao">
+                                            Não, apenas nos finais de semana.
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-group my-3">
+                                    <div class="form-check form-switch">
+                                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                                        <label class="form-check-label" for="flexSwitchCheckDefault">Concordo com os
+                                            termos e condições.</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <button class="btn btn-primary mt-3 px-5" type="submit">Inscrever-se</button>
+                                    </div>
+                                </div>
+                            </div>
                         </form>
                     </div>
                 </div>
