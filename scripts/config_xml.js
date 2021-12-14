@@ -2,7 +2,7 @@ var TSC = TSC || {};
 
 TSC.embedded_config_xml = '<x:xmpmeta tsc:version="2.0.1" xmlns:x="adobe:ns:meta/" xmlns:tsc="http://www.techsmith.com/xmp/tsc/">\
    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/" xmlns:xmpG="http://ns.adobe.com/xap/1.0/g/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:tscDM="http://www.techsmith.com/xmp/tscDM/" xmlns:tscIQ="http://www.techsmith.com/xmp/tscIQ/" xmlns:tscHS="http://www.techsmith.com/xmp/tscHS/" xmlns:stDim="http://ns.adobe.com/xap/1.0/sType/Dimensions#" xmlns:stFnt="http://ns.adobe.com/xap/1.0/sType/Font#" xmlns:exif="http://ns.adobe.com/exif/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/">\
-      <rdf:Description dc:creator="Caio Sperling" dc:date="2021-12-14 03:53:53 " dc:source="Camtasia,21.0.12,ptb" dc:title="video" tscDM:firstFrame="tela-video.jpg" tscDM:originId="E03BC263-4E37-4011-8029-05569450A4BD" tscDM:project="Projeto sem título">\
+      <rdf:Description dc:creator="Caio Sperling" dc:date="2021-12-14 04:23:14 " dc:source="Camtasia,21.0.12,ptb" dc:title="video" tscDM:firstFrame="tela-video.jpg" tscDM:originId="E03BC263-4E37-4011-8029-05569450A4BD" tscDM:project="Projeto sem títuloe9f0745.autosave">\
          <xmpDM:duration xmpDM:scale="1/1000" xmpDM:value="19800"/>\
          <xmpDM:videoFrameSize stDim:unit="pixel" stDim:h="1080" stDim:w="1920"/>\
          <tsc:langName>\
