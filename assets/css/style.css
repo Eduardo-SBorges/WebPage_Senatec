@@ -784,6 +784,7 @@ section {
 
 .why-us .video-box {
     position: relative;
+    min-height: 320px;
 }
 
 .why-us .video-box img {
